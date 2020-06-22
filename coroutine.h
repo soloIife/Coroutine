@@ -1,7 +1,5 @@
-#ifndef TEST00_COROUTINE_H
-#define TEST00_COROUTINE_H
-
-
+#ifndef M_COROUTINE_H
+#define M_COROUTINE_H
 //线程信息的结构
 typedef struct
 {

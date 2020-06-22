@@ -1,10 +1,7 @@
-//
-// Created by Alone on 2020/6/21.
-//
-
-#include "stdafx.h"
+#include <iostream>
+#include <windows.h>
+#include <list>
 #include "coroutine.h"
-
 //Define the size of the coroutine stack
 #define COROUTINE_STACK_SIZE 1024*1024*1 // 1M stack
 #define MAX_COROUTINE 1000 // max coroutine num

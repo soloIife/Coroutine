@@ -1,5 +1,5 @@
-#include "stdafx.h"
 #include "coroutine.h"
+#include <iostream>
 
 void task(void* num) {
     print("Coroutine%d start...", (int)num);
