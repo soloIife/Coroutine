@@ -1,6 +1,6 @@
 #ifndef M_COROUTINE_H
 #define M_COROUTINE_H
-//线程信息的结构
+//coroutine info
 typedef struct {
     unsigned int id;
     int flag;
@@ -30,4 +30,4 @@ void RunTask();
 #define co_yield Schedule();
 #define print(str, ...) printf(str##"\n",__VA_ARGS__)
 
-#endif //TEST00_COROUTINE_H
+#endif
