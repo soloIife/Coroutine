@@ -68,7 +68,7 @@ static bool init_stack(MCoroutine *coroutine) {
     coroutine->stack_end = stack_pages;
     stack_top_p = (unsigned int *) coroutine->stack_start;
     push_stack(&stack_top_p, (unsigned int) coroutine);//
-    push_stack(&stack_top_p, 0);//填充对齐
+    push_stack(&stack_top_p, 0);// padding
     push_stack(&stack_top_p, (unsigned int) coroutine_startup);//
     push_stack(&stack_top_p, 1);//ebp
     push_stack(&stack_top_p, 2);
